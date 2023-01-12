@@ -2,6 +2,14 @@
     .promo
         padding: 21px 20px 93px 20px
         background-size: 100% 100%
+    .carousel
+        &__inner
+            width: 70%
+            img 
+                width:80%
+                margin: 0 auto
+    .consultation
+        padding-left: 10px
 @media (max-width: 768px)
     .header
         &__official
@@ -12,6 +20,31 @@
             width: 95%
         &__phone
             font-size: 15px
+    .carousel
+        &__inner
+            width: 60%
+            img 
+                width:70%
+                margin: 0 auto
+        .slick-prev, .slick-next
+            img
+                width: 70%
+    .catalog
+        &__tabs
+            flex-direction: column
+        &__tab
+            margin-top: 10px
+        &-item
+            margin: 5px 20px
+    .coment
+        &__item
+            flex-direction: column
+            align-items: center
+            img 
+                margin-bottom: 20px
+    .consultation
+        padding-left: 10px
+
 @media (max-width: 576px)
     .promo
         &__header
@@ -34,5 +67,34 @@
             flex-direction: column
         &__header
             font-size: 25px
+    .carousel
+        &__inner
+            width: 50%
+            img 
+                width:70%
+                margin: 0 auto
+        .slick-prev, .slick-next
+            img
+                width: 50%
+    .catalog
+        &__tabs
+            flex-direction: column
+        &__tab
+            margin-top: 10px
+        &-item
+            margin: 0 auto
+    .consultation
+        padding-left: 10px
+        &__header
+            font-size: 18px
+        &__descr
+            font-size: 14px
+        .feed-form
+            margin: 0 auto
+            padding-top: 10px
+    .coment
+        &__descr
+            padding-right: 10px
+ 
 
     
